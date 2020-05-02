@@ -41,7 +41,7 @@ public class minimumDepthOfBinaryTree {
                  if(cur.right!=null) queue.add(cur.right);
 
              }
-             //更新步数
+             //更新步数 
              res++;
          }
          return res;
