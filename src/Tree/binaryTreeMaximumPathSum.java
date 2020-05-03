@@ -2,7 +2,7 @@ package Tree;
 
 /**
  * 124、也是遍历每一个节点，求路径和
- * 具体实现思路与124类似
+ *
  */
 public class binaryTreeMaximumPathSum {
 

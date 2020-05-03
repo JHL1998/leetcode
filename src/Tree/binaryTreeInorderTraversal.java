@@ -26,6 +26,7 @@ public class binaryTreeInorderTraversal {
 
 /**
  * 利用栈实现模拟非递归中序遍历
+ * 中序遍历顺序为left->root->right
  *
  *
  */
