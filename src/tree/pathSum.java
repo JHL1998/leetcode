@@ -1,4 +1,4 @@
-package Tree;
+package tree;
 
 /**
  * 112、简单递归

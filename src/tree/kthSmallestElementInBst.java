@@ -1,4 +1,4 @@
-package Tree;
+package tree;
 
 /**
  * 230、二叉搜索树中第k小的元素

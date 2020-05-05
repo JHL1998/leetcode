@@ -1,4 +1,4 @@
-package Tree;
+package tree;
 
 /**
  * 572、 检查t是否是s的子树，要么s和t相等，

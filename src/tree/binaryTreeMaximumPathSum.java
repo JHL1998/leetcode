@@ -1,4 +1,4 @@
-package Tree;
+package tree;
 
 /**
  * 124、也是遍历每一个节点，求路径和

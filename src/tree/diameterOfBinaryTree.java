@@ -1,4 +1,4 @@
-package Tree;
+package tree;
 
 /** 543、
  * 此题转换为求任意节点左右子树高度和的最大值

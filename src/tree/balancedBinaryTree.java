@@ -1,4 +1,4 @@
-package Tree;
+package tree;
 
 /**
  * 判断一棵树是不是平衡二叉树，可以沿用我们在设计AVL树时的思想，求高度

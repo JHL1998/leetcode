@@ -1,4 +1,4 @@
-package Tree;
+package tree;
 
 /**
  * 669、 修剪二叉搜索树，递归思想
