@@ -27,3 +27,40 @@ public class subtreeOfAnotherTree {
     }
 }
 
+class subtreeOfAnotherTree_1 {
+    /**
+     * 直接将这棵树序列化， 空节点也要序列化，这样才能保证 序列化的字符串能恢复出唯一一棵树，
+     * 前序遍历和后序遍历都可以,这里使用的是后序遍历
+     * @param s
+     * @param t
+     * @return
+     */
+    public boolean isSubtree(TreeNode s, TreeNode t) {
+        if(s==null||t==null) return false;
+        return postPrint(s).contains(postPrint(t));
+    }
+    private String postPrint(TreeNode root){
+        StringBuilder sb=new StringBuilder();
+        postPrint(sb,root);
+        return sb.toString();
+    }
+    private String postPrint(StringBuilder sb,TreeNode node){
+        if(node.left==null){
+            sb.append(".!");
+        }else{
+            postPrint(sb,node.left);
+        }
+
+        if(node.right==null){
+            sb.append(".!");
+        }else{
+            postPrint(sb,node.right);
+        }
+        sb.append(node.val).append("*!");
+        return sb.toString();
+    }
+}
+
+
+
+
