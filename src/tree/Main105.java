@@ -3,7 +3,7 @@ package tree;
 /**
  * 105、从前序遍历与中序遍历构造二叉树
  */
-public class _105ConstructBinaryTreeFromPreorderAndInorderTraversal {
+public class Main105 {
     /**
      *     1
      *    / \

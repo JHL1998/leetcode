@@ -9,7 +9,7 @@ package tree;
  * 通过给定的数组构建最大二叉树，并且输出这个树的根节点。
  *
  */
-public class _654MaximumBinaryTree {
+public class Main654 {
     public TreeNode constructMaximumBinaryTree(int[] nums) {
           if(nums==null||nums.length==0) return null;
           return helper(nums,0,nums.length);

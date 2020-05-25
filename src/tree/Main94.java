@@ -8,7 +8,7 @@ import java.util.Stack;
  * 94、中序遍历是一种非常有用的性质，二分搜索树的中序遍历出来是一个递增的序列
  * 递归
  */
-public class binaryTreeInorderTraversal {
+public class Main94 {
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> res=new ArrayList<>();
         inOrder(root,res);

@@ -8,7 +8,7 @@ import java.util.Queue;
 /**
  * 637、BFS模版题
  */
-public class averageOfLevelsInBinaryTree {
+public class Main637 {
     public List<Double> averageOfLevels(TreeNode root) {
         if(root==null) return new ArrayList<>();
         List<Double> res=new ArrayList<>();
