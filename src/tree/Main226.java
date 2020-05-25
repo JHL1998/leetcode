@@ -6,7 +6,7 @@ import java.util.Queue;
 /**
  * 226、递归实现
  */
-public class invertBinaryTree {
+public class Main226 {
 
     public TreeNode invertTree(TreeNode root){
         if(root==null) return null;

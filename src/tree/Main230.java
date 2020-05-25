@@ -10,7 +10,7 @@ import java.util.List;
 /**
  * 最直接的做法，利用二叉搜索树的性质，我们使用中序遍历
  */
-public class kthSmallestElementInBst {
+public class Main230 {
     List<Integer> res=new ArrayList<>();
     public int kthSmallest(TreeNode root, int k) {
         if(root==null) return 0;
