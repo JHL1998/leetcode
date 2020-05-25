@@ -6,7 +6,7 @@ import java.util.Stack;
  * 538、把二叉搜索树转换为累加树
  * 递归思想 中序遍历为left->root->right  反过来就是right->root->left 从大到小累加
  */
-public class convertBstToGreaterTree {
+public class Main538 {
     private int sum=0;
     public TreeNode convertBST(TreeNode root) {
         if(root==null) return null;

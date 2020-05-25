@@ -38,15 +38,15 @@ public class Main94 {
         TreeNode cur=root;
         //先判断当前结点是否存在，若存在则将该节点放入栈中，再将当前结点设置为结点的左孩子，
         while(cur!=null||!stack.isEmpty()){
-            if(cur!=null){
+            while(cur!=null){
                 stack.push(cur);
                 cur=cur.left;
-            }else{
+            }
                 // 若不存在则取栈顶元素为cur，当且仅当栈空cur也为空，循环结束。
                 cur=stack.pop();
                 res.add(cur.val);
                 cur=cur.right;
-            }
+
         }
         return res;
 

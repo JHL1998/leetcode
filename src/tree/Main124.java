@@ -4,7 +4,7 @@ package tree;
  * 124、也是遍历每一个节点，求路径和
  *
  */
-public class binaryTreeMaximumPathSum {
+public class Main124 {
 
     private int max = Integer.MIN_VALUE;
 

@@ -6,7 +6,7 @@ import java.util.Queue;
 /**
  * 513、BFS
  */
-public class findBottomLeftTreeValue {
+public class Main513 {
     public int findBottomLeftValue(TreeNode root) {
         if (root == null) return 0;
         Queue<TreeNode> queue = new LinkedList<>();

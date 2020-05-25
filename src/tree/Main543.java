@@ -5,7 +5,7 @@ package tree;
  * root的直径为左子树高度+右子树高度
  * root的高度max{左子树高度，右子树高度}+1
  */
-public class diameterOfBinaryTree {
+public class Main543 {
     private int max=0;
     public int diameterOfBinaryTree(TreeNode root) {
         dfs(root);

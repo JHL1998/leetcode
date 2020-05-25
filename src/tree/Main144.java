@@ -7,7 +7,7 @@ import java.util.Stack;
 /**
  * 144、前序遍历是最二叉树中很重要的一个性质，递归实现
  */
-public class binaryTreePreorderTraversal {
+public class Main144 {
     List<Integer> res=new ArrayList<>();
     public List<Integer> preorderTraversal(TreeNode root) {
         if(root==null) return new ArrayList<>();
