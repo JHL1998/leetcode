@@ -6,7 +6,7 @@ import java.util.Queue;
 /**
  * 最简单的办法就是递归
  */
-public class MaximumDepthofBinaryTree {
+public class Main104 {
 
         public int maxDepth(TreeNode root) {
             return root==null?0:Math.max(maxDepth(root.left),maxDepth(root.right))+1;
@@ -29,7 +29,7 @@ class MaximumDepthofBinaryTree2{
                   TreeNode cur=queue.peek();
                   if(cur.left!=null) queue.add(cur.left);
                   if(cur.right!=null) queue.add(cur.right);
-                  queue.remove();
+
               }
               res++;
         }

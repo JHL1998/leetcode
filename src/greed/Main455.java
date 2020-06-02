@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * 455、分发饼干
  */
-public class _455assignCookies {
+public class Main455 {
     /**
      * 本题的贪心思想很简单：
      * 我们首先将g和s两个数组进行排序

@@ -6,7 +6,7 @@ import java.util.Queue;
 /**
  * 递归做法
  */
-public class minimumDepthOfBinaryTree {
+public class Main111 {
 
     public int minDepth(TreeNode root) {
         if(root==null) return 0;

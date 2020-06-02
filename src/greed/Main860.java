@@ -3,7 +3,7 @@ package greed;
 /**
  * 860、柠檬水找零
  */
-public class _860LemonadeChange {
+public class Main860 {
     /**
      * 按照贪心的思想，我们尽量优先找10块的出去
      * 10块钱不够了我们可以拿5块凑

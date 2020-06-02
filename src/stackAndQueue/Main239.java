@@ -70,7 +70,6 @@ class Main239_2 {
      * @return
      */
     public int[] maxSlidingWindow(int[] nums, int k) {
-        Deque<Integer>deque=new LinkedList<>();
         Deque<Integer>queue=new LinkedList<>();
         int n=nums.length;
         int res[]=new int[n-k+1];
@@ -79,9 +78,11 @@ class Main239_2 {
                 queue.removeLast();
             }
             queue.addLast(i);
+            //此时窗口头无效 移除队头元素
             if(queue.getFirst()<i-k+1){
                 queue.removeFirst();
             }
+            //如果窗口头有效
             if(i-k+1>=0) res[i-k+1]=nums[queue.getFirst()];
 
         }

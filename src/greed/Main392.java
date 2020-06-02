@@ -3,7 +3,7 @@ package greed;
 /**
  * 392、判断子序列
  */
-public class _392isSubsequence {
+public class Main392 {
 
     /**
      * 用两个指针都从头开始扫

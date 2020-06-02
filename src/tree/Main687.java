@@ -6,7 +6,7 @@ package tree;
  * 这是的路径用边长代替
  *
  */
-public class longestUnivaluePath {
+public class Main687 {
 
     private int max = 0;
 
