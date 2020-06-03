@@ -5,7 +5,7 @@ package tree;
  * 要么t和s的左子树相等，
  * 要么和他的右子树相等
  */
-public class subtreeOfAnotherTree {
+public class Main572 {
     public boolean isSubtree(TreeNode s, TreeNode t) {
 
         if(s==null) return false;

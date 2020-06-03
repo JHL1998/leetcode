@@ -3,7 +3,7 @@ package tree;
 /**
  * 112、简单递归
  */
-public class pathSum {
+public class Main112 {
     public boolean hasPathSum(TreeNode root, int sum) {
         if(root==null) return false;
         if(root.left==null&&root.right==null&&root.val==sum) return true;
