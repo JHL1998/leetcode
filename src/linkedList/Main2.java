@@ -3,7 +3,7 @@ package linkedList;
 /**
  * 2、两数相加
  */
-public class _2AddTwoNumbers {
+public class Main2 {
     /**
      * 这个代码比较长，但是很好理解，而且可以复制
      * @param l1

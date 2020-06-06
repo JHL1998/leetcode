@@ -7,7 +7,7 @@ import java.util.PriorityQueue;
 /**
  * 合并K个排序链表
  */
-public class _23MergeKSortedLists {
+public class Main23 {
 
     /**
      * 最直接的办法，我们将每一个链表都放到一个集合中，然后进行排序

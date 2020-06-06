@@ -3,7 +3,7 @@ package tree;
 /**
  * 669、 修剪二叉搜索树，递归思想
  */
-public class trimBinarySearchTree {
+public class Main669 {
     public TreeNode trimBST(TreeNode root, int L, int R) {
         if(root==null) return null;
         //节点值太大，从左边修剪
